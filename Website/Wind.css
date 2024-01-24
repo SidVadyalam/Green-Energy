@@ -103,3 +103,17 @@ body{
     animation: bar linear;
     animation-timeline:scroll(y);
 }
+
+ol li{
+    width: 90%;
+}
+ol{
+    animation: third linear forwards;
+    animation-timeline: view();
+    animation-range: entry;
+}
+
+@keyframes bar {
+    from{scale: 1 0}
+    to{scale: 1 1}
+}
