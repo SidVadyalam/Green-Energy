@@ -48,6 +48,7 @@ body{
     color:white;
     margin-left:15vw;
     margin-right:15vw;
+    font-size:2.5vh;
 }
 
 .person{
@@ -72,8 +73,10 @@ body{
     background-color: rgb(19, 19, 19);
     position: sticky;
     height: 100vh;
-    padding-top:8vh;
-    padding-bottom:2vh;
+
+        display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .person div{
     overflow: hidden;
